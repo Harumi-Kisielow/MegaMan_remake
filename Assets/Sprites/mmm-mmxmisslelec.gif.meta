@@ -115,7 +115,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -129,7 +129,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -784,7 +784,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mmm-mmxmisslelec_0: 4798863084752957676
+      mmm-mmxmisslelec_1: 8014673172459872093
+      mmm-mmxmisslelec_10: 2382013146629660441
+      mmm-mmxmisslelec_11: -4365729061946126961
+      mmm-mmxmisslelec_12: 6892081593066457767
+      mmm-mmxmisslelec_13: 8242949579766381842
+      mmm-mmxmisslelec_14: -3790157071794366944
+      mmm-mmxmisslelec_15: 3062810794769267689
+      mmm-mmxmisslelec_16: 5383992135945126764
+      mmm-mmxmisslelec_17: 9212509931724535705
+      mmm-mmxmisslelec_18: 3676983329128323611
+      mmm-mmxmisslelec_19: -1053992381905006310
+      mmm-mmxmisslelec_2: 7855014917554484139
+      mmm-mmxmisslelec_20: 5068285465861338877
+      mmm-mmxmisslelec_21: -8759785444366694464
+      mmm-mmxmisslelec_22: -6590297158215661219
+      mmm-mmxmisslelec_23: 4483674008669531769
+      mmm-mmxmisslelec_24: 4504295138031020225
+      mmm-mmxmisslelec_25: 1248607550988932845
+      mmm-mmxmisslelec_26: 5006473370125816329
+      mmm-mmxmisslelec_3: 4953992486433454649
+      mmm-mmxmisslelec_4: -5968370099406805372
+      mmm-mmxmisslelec_5: -1773888582199575913
+      mmm-mmxmisslelec_6: 260919921908845607
+      mmm-mmxmisslelec_7: 6759998280802133214
+      mmm-mmxmisslelec_8: -3121027681797689956
+      mmm-mmxmisslelec_9: -6133826871334650467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
