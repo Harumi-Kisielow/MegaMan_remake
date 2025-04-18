@@ -162,10 +162,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"TIro","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"MegaMan","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1486553697}
+    - {fileID: 2013278409}
 --- !u!4 &452751003
 Transform:
   m_ObjectHideFlags: 0
@@ -701,11 +701,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!4 &1486553703 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1714736318645376482, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
-  m_PrefabInstance: {fileID: 3526407400909470122}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2013278409
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,7 +792,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1253159965}
-  - {fileID: 1486553703}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2013278412
@@ -934,7 +928,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2013278411}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 229796109769184609, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
       propertyPath: m_Name
@@ -942,11 +936,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1714736318645376482, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.71
+      value: -8.54
       objectReference: {fileID: 0}
     - target: {fileID: 1714736318645376482, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.3500001
+      value: -5.57
       objectReference: {fileID: 0}
     - target: {fileID: 1714736318645376482, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1000,3 +994,4 @@ SceneRoots:
   - {fileID: 2013278411}
   - {fileID: 644005839}
   - {fileID: 452751003}
+  - {fileID: 3526407400909470122}
