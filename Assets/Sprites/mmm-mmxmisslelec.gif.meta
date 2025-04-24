@@ -174,6 +174,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -449,8 +462,8 @@ TextureImporter:
         y: 82
         width: 55
         height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -555,9 +568,9 @@ TextureImporter:
       name: mmm-mmxmisslelec_17
       rect:
         serializedVersion: 2
-        x: 130
+        x: 116
         y: 11
-        width: 45
+        width: 59
         height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -577,9 +590,9 @@ TextureImporter:
       name: mmm-mmxmisslelec_18
       rect:
         serializedVersion: 2
-        x: 195
+        x: 178
         y: 9
-        width: 50
+        width: 67
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -723,50 +736,6 @@ TextureImporter:
       bones: []
       spriteID: 1c8abd13098728e30800000000000000
       internalID: 4504295138031020225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mmm-mmxmisslelec_25
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 14
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de6d094c3f1f35110800000000000000
-      internalID: 1248607550988932845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mmm-mmxmisslelec_26
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 9
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9025dc331019a7540800000000000000
-      internalID: 5006473370125816329
       vertices: []
       indices: 
       edges: []
