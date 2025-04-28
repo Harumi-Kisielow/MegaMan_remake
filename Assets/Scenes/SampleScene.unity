@@ -480,10 +480,12 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"MegaMan","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Enemy","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TempoDeVida","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TIro_MegaMan","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2013278409}
     - {fileID: 288157361}
+    - {fileID: 229796109769184609, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
 --- !u!4 &452751003
 Transform:
   m_ObjectHideFlags: 0
@@ -862,6 +864,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3305056636930843039, guid: 774bf1ca199a4c448925f3883ed838d2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3985796268505073396, guid: 774bf1ca199a4c448925f3883ed838d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.26
@@ -1441,6 +1447,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a5ebdb92f592acd47859fabce5a4bcfa, type: 2}
     - target: {fileID: 5526885174018445501, guid: f8e8876287f825b469b4f8b224df447e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526885174018445501, guid: f8e8876287f825b469b4f8b224df447e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.33
       objectReference: {fileID: 0}
@@ -1495,6 +1505,10 @@ PrefabInstance:
     - target: {fileID: 8348793262087656803, guid: f8e8876287f825b469b4f8b224df447e, type: 3}
       propertyPath: m_Name
       value: Tiro_bola_robo
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072347584332140735, guid: f8e8876287f825b469b4f8b224df447e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
