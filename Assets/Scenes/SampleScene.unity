@@ -1378,6 +1378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tiro
       objectReference: {fileID: 0}
+    - target: {fileID: 229796109769184609, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
+      propertyPath: m_TagString
+      value: Tiro_Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1714736318645376482, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.54
@@ -1417,6 +1421,14 @@ PrefabInstance:
     - target: {fileID: 1714736318645376482, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902584090260474338, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.6803519
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902584090260474338, guid: d7c1340b7ec992846b03cb439b40b01b, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0000010196297
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
