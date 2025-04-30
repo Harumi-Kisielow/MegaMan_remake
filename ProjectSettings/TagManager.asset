@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Tiro_Player
+  - TiroInimigo
   layers:
   - Default
   - TransparentFX
