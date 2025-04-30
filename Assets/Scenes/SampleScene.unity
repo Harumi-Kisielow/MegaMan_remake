@@ -6169,6 +6169,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1489844814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7628366036192902370, guid: 463a04e21466b584d86a95168253c727, type: 3}
+  m_PrefabInstance: {fileID: 1079538046616046137}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1489844821
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489844814}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e150eca193084c540b0b8930f0b49291, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1543764169 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 689957027867142181, guid: ae824efadba3912499e4878473d39cf8, type: 3}
@@ -6190,6 +6217,28 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 5bbd9c04b6192ad45b4c6e75faeed357, type: 2}
+--- !u!95 &1543764183
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543764169}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d17c53d5f78c757438bbc237308a3b09, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1599974993
 GameObject:
   m_ObjectHideFlags: 0
@@ -6787,7 +6836,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7628366036192902370, guid: 463a04e21466b584d86a95168253c727, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1489844821}
   m_SourcePrefab: {fileID: 100100000, guid: 463a04e21466b584d86a95168253c727, type: 3}
 --- !u!1001 &3429788671033597539
 PrefabInstance:
@@ -6845,13 +6897,17 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TiroCarregadoVerde
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2081621393316310955, guid: ae824efadba3912499e4878473d39cf8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 689957027867142181, guid: ae824efadba3912499e4878473d39cf8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1543764176}
+    - targetCorrespondingSourceObject: {fileID: 689957027867142181, guid: ae824efadba3912499e4878473d39cf8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1543764183}
   m_SourcePrefab: {fileID: 100100000, guid: ae824efadba3912499e4878473d39cf8, type: 3}
 --- !u!1001 &3526407400909470122
 PrefabInstance:
