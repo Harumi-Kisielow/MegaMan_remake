@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -8227302203750548480}
   m_Layer: 0
   m_Name: TiroCarregadoVerde
-  m_TagString: Tiro_Player
+  m_TagString: TiroCarregadoVerde
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

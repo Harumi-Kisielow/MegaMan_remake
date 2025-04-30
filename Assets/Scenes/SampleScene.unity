@@ -5321,6 +5321,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Dano","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"BarraVIda","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"InimigoVida","value":{"$content":15,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DanoMegaMan","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2013278409}
@@ -6739,6 +6740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TiroCarregadoAzul
       objectReference: {fileID: 0}
+    - target: {fileID: 7628366036192902370, guid: 463a04e21466b584d86a95168253c727, type: 3}
+      propertyPath: m_TagString
+      value: TiroCarregadoAzul
+      objectReference: {fileID: 0}
     - target: {fileID: 8002979997069493374, guid: 463a04e21466b584d86a95168253c727, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.406
@@ -6834,6 +6839,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 689957027867142181, guid: ae824efadba3912499e4878473d39cf8, type: 3}
       propertyPath: m_Name
+      value: TiroCarregadoVerde
+      objectReference: {fileID: 0}
+    - target: {fileID: 689957027867142181, guid: ae824efadba3912499e4878473d39cf8, type: 3}
+      propertyPath: m_TagString
       value: TiroCarregadoVerde
       objectReference: {fileID: 0}
     m_RemovedComponents: []
